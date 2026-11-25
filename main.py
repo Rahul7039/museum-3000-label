@@ -1,11 +1,14 @@
 #!/usr/bin/env python3
 # Museum of the Year 3000 - make.fun one-line entry.
-# Prints exactly one line: the entry text, nothing else.
-# Deterministic, standard library only, no network, no randomness.
+# A year-3000 museum label: future scholars, confidently wrong,
+# exhibit a group chat as an artefact of humans who spent six years
+# deciding where to eat and never once ate together. Prints exactly
+# one line, nothing else. Deterministic, standard library only,
+# no network, no randomness.
 
 import os
 
-LINE = 'Group chat, 2019-2025. Forty-seven humans spent six years deciding where to eat, and never once ate together.'
+LINE = "Group chat, 2019-2025. Scholars believe forty-seven humans gathered nightly for six years to decide where to eat, and never once ate together."
 
 
 def main() -> None:
